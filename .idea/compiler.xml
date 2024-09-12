@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="details" />
         <module name="search" />
-        <module name="config" />
         <module name="discovery" />
+        <module name="university1" />
+        <module name="details" />
+        <module name="config" />
+        <module name="demo" />
         <module name="gateway" />
       </profile>
     </annotationProcessing>
@@ -17,10 +19,12 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config" options="-parameters" />
+      <module name="demo" options="-parameters" />
       <module name="details" options="-parameters" />
       <module name="discovery" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="search" options="-parameters" />
+      <module name="university1" options="-parameters" />
     </option>
   </component>
 </project>

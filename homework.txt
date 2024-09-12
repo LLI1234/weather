@@ -17,7 +17,7 @@ homework
     encrypt port
 2. create search service ->
         completable future
-            call book/author service
+            call university service
             call details (/details/port)
             restTemplate.getForObject("http://details/port",  ..);
         merge result -> return "general response(code, timestamp, data)" to user
